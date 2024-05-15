@@ -1,11 +1,12 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
-	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
-	"isDesktopOnly": false
+  "id": "Obsidian_Updater",
+  "name": "ObsidianUpdater",
+  "version": "1.0.0",
+  "minimumObsidianVersion": "0.12.5",
+  "author": "KamauDaSicko",
+  "description": "This is a simple script that updates documents using json data",
+  "main": "main.js",
+  "dependencies": [
+    "obsidian"
+  ]
 }
